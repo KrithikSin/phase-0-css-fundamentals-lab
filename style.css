@@ -3,3 +3,32 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1,
+figure, 
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(197, 196, 196);
+}
+
+figcaption {
+  font-size: smaller;
+}
+
+section#featured-property p{
+  width: 800px;
+  text-align: center;
+  padding: 10px;
+}
+
+section#details div{
+  float: left;
+  background-color: red;
+  width: 25%;
+  text-align: center;
+}
